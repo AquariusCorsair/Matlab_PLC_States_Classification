@@ -10,6 +10,7 @@
 ## Run in matlab R2016b
 1. Download the data file from https://drive.google.com/open?id=0B_HlYDbGYXySQjNON2dTdFFXeWM. Extract it to the current path.
 2. Trail to compute confusion matrix. In Matlab Shell, run:
+
 > runExperiments_
 3. Predict realtime state transition. In Matlab Shell, run:
 > stateDetection
