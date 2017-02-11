@@ -8,12 +8,12 @@
 5. After getting the raw realtime states swithing data serial A[n], it applied a sliding window to compare the statistical attributes of A[n], i.e. distribution histogram, against the training data and deside whether there is an abnormal state, i.e. `Euclidean Distance` is big. 
 
 ## Run in matlab R2016b
-* Download the data file from https://drive.google.com/open?id=0B_HlYDbGYXySQjNON2dTdFFXeWM. Extract it to the current path.
-* Trail to compute confusion matrix. In Matlab Shell, run:
+1. Download the data file from https://drive.google.com/open?id=0B_HlYDbGYXySQjNON2dTdFFXeWM. Extract it to the current path.
+2. Trail to compute confusion matrix. In Matlab Shell, run:
 
 > runExperiments_
 
-* Predict realtime state transition. In Matlab Shell, run:
+3. Predict realtime state transition. In Matlab Shell, run:
 
 > stateDetection
 
