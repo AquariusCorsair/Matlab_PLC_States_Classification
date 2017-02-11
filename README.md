@@ -20,11 +20,9 @@
   * Output figure 1 is the raw prediction (comming right out of classifier), in forms of `<class index>` against `time`.
 
 [Figure 1 Raw Classification](tmp/pics/fig1.jpg)
-
   * Output figure 2 is the Distribution within sliding window(represented as classes instances count) against time.
 
 [Figure 2 Distribution Within Sliding Window](tmp/pics/fig2.jpg)
-
   * Output figure 3 is the abnormal states detection result. When the Euclidean Distance from template is large, we found 
 
 [Figure 3 Abnormal States Detection](tmp/pics/fig3.jpg)
