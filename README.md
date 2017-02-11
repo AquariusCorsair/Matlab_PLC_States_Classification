@@ -11,17 +11,17 @@
 1. Download the data file from https://drive.google.com/open?id=0B_HlYDbGYXySQjNON2dTdFFXeWM. Extract it to the current path.
 2. Trail to compute confusion matrix. In Matlab Shell, run:
 
-$ runExperiments_
+  > runExperiments_
 
 3. Predict realtime state transition. In Matlab Shell, run:
 
-$ stateDetection
+  > stateDetection
 
-  1. Output figure 1 is the raw prediction (comming right out of classifier), in forms of `<class index>` against `time`.
+  * Output figure 1 is the raw prediction (comming right out of classifier), in forms of `<class index>` against `time`.
 [figure 1 Raw Classification](tmp/pics/fig1.jpg)
 
-  2. Output figure 2 is the Distribution within sliding window(represented as classes instances count) against time.
+  * Output figure 2 is the Distribution within sliding window(represented as classes instances count) against time.
 [figure 2 Distribution Within Sliding Window](tmp/pics/fig2.jpg)
 
-  3. Output figure 3 is the abnormal states detection result. When the Euclidean Distance from template is large, we found 
+  * Output figure 3 is the abnormal states detection result. When the Euclidean Distance from template is large, we found 
 [figure 3 Abnormal States Detection](tmp/pics/fig3.jpg)
