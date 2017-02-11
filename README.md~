@@ -1,0 +1,14 @@
+# classification of PLC instruction
+
+## Description
+* This program extracted frquency features of input data(EM emission of PLC's running Instruction loop. The five classes of them are stored in `./data/[JMP,LN,SIN,SQI,XPY]`), by slidingwindow and DFT/pwelch. 
+* And, after applying pca to the data features, it used machine learning algorithm to train a model (stored in stored in `./tmp/classifier_windowed.mat`)
+* It calculated the confusion matrix(stored in `./tmp/confusionMatrixTest.mat`) after a certain number of trails.
+* And it predicts realtime testing data (stored in `./data/testCases`) classes against time.
+
+## Run in matlab R2016b
+1. trail to compute confusion matrx
+> runExperiments_
+2. predict realtime state transition
+> stateDetection
+
