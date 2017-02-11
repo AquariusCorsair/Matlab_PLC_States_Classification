@@ -24,4 +24,4 @@
 
 - output figure 3 is the abnormal states detection result. When the Euclidean Distance from template is large, we found an abnormal state.
 
-[figure 3 Abnormal States Detection](tmp/pics/fig1.jpg)
+[figure 3 Abnormal States Detection](tmp/pics/fig3.jpg)

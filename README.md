@@ -9,9 +9,12 @@
 
 ## Run in matlab R2016b
 1. Download the data file from https://drive.google.com/open?id=0B_HlYDbGYXySQjNON2dTdFFXeWM. Extract it to the current path.
-2. Trail to compute confusion matrx
+2. Trail to compute confusion matrix:
+
 > runExperiments_
+
 3. Predict realtime state transition
+
 > stateDetection
 
 - Output figure 1 is the raw prediction (comming right out of classifier), in forms of `<class index>` against `time`.
