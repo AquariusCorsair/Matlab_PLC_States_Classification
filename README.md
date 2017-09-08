@@ -28,4 +28,4 @@
 [Figure 3 Abnormal States Detection](tmp/pics/fig3.jpg)
 
 # For more info:
-* [paper]()
+* [paper](https://github.com/hualiu01/StatesClassification/blob/master/paper.pdf)
